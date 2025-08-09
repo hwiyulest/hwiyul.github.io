@@ -177,7 +177,9 @@ p {
     background: url('imgs/backg_dark.png') center/cover no-repeat; /*반응형*/
     /* padding: 250px; 커버 사이즈로 */
 }
-
+#icon1{
+    background: url('imgs/hewi.jpg') center/cover no-repeat; /*반응형*/
+}
 /* Section common */
 section {
     padding: 30px;
@@ -196,33 +198,53 @@ section {
 }
 .about__majors {
     display: flex;
-    justify-content: space-between;
-    margin: 80px 0;
+    justify-content: center;
+    margin: 70px;    
+    /* justify-content: space-between;
+    margin: 80px 0; */
 }
 .about__jobs,
 .about__education{
     margin: 25px 0;
 }
 
+#eduimg{ margin-right: 20px; }
+#icon1{
+    background: url('imgs/hese.jpg') center/cover no-repeat; /*반응형*/
+}
+#icon2{
+    background: url('imgs/tosnamecard2.jpg') center/cover no-repeat; /*반응형*/
+}
+#icon3{
+    background: url('imgs/hewiname.jpg') center/cover no-repeat; /*반응형*/
+}
+.major{
+    padding: 30px;
+}
 .major__icon {
-    width: 200px;
-    height: 200px;
-    line-height: 170px;
+    width: 319px;
+    height: 195px;
+    line-height: 195px;
+    font-size: 50px;
+    margin: auto;   
+    /* width: 225px;
+    height: 225px;
+    line-height: 195px;
     font-size: 90px;
     margin: auto;
     color: var(--color-dark-red);
     border: 20px solid var(--color-dark-purple);
     border-radius: 50%;
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
 }
   
 .major__icon i {
-    transition: all var(--animation-duration) ease;
+    /* transition: all var(--animation-duration) ease; */
 }
 
 .major__icon:hover i {
-    color: var(--color-orange);
-    transform: rotate(-30deg) scale(1.1);
+    /* color: var(--color-orange); */
+    /* transform: rotate(-20deg) scale(1.1); */
 }
 
 .major__title,
@@ -240,13 +262,15 @@ section {
 }
 .about__education{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
     /* align-items: center; */
 }
 
 .job,
 .education {
     display: flex;
+    /* display:inline; */
     align-items: center;
 }
 .job>img,
@@ -588,16 +612,19 @@ section {
 
 
 /* below 768px screen width */
-@media screen and (max-width: 768px) {
-  .navbar__toggle-btn {
-    display: block;
-  }
-
-  #navbar {
-    flex-direction: column;
-    align-items: flex-start;
+@media screen and (max-width: 800px) {
+ 
+   .navbar__toggle-btn {
+        display: block;
+    }
+    #about {
+        margin: 10px;
+    }    
+    #navbar {
+        lex-direction: column;
+        align-items: flex-start;
     /* background-color: var(--color-dark-red); */
-  }
+    }
 
   .navbar__menu {
     flex-direction: column;
@@ -636,9 +663,8 @@ section {
       display: block;
     }
     #about {
-        margin: 0 10px;
-    }
-  
+        margin: 10px;
+    }    
     #navbar {
       flex-direction: column;
       align-items: flex-start;
