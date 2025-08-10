@@ -304,7 +304,7 @@ section {
 /* Skill */
 
 #skills {
-  /*  background: url('imgs/skill-background.png') center/cover no-repeat; 반응형*/
+    background: url('imgs/skill-background.png') center/cover no-repeat; /*반응형*/
 }
 
 .skillset {
@@ -329,7 +329,7 @@ section {
 }
 .skillset__left {
     flex-basis: 50%;
-    padding: 20px 40px;
+    padding: 8px 40px;
     margin: 0 0 50px 70px;
     background-color: var(--color-dark-purple);
 }
@@ -450,7 +450,7 @@ section {
     justify-content: center;
     align-items: center;
     width: 290px;
-    height: 250px;
+    height: 290px;
     margin: 2px;
     background-color: var(--color-light-white);
 }
@@ -617,7 +617,7 @@ section {
   
 
 
-/* below 850px screen width */
+/* below 830px screen width */
 @media screen and (max-width: 830px) {
  
    .navbar__toggle-btn {
@@ -827,4 +827,3 @@ section {
     }
   }
   
-
