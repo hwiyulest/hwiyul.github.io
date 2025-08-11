@@ -595,6 +595,10 @@ section {
     color: var(--color-yellow);
 }
 
+#linkTarget :hover {
+  text-decoration: underline;    /* 마우스 오버 시 밑줄 */
+}
+
 /* Scroll */
 .arrow-up {
     position: fixed;
@@ -604,7 +608,7 @@ section {
     height: 70px;
     font-size: 50px;
     color: var(--color-white);
-    background-color: var(--color-blue-black);
+    background-color: var(--color-dark-light-purple);
     border-radius: 50%;
     opacity: 0;
     pointer-events: none;
