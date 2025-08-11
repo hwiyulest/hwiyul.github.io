@@ -831,8 +831,9 @@ section {
     }
   }
   
+
   
-/* below 440px screen width */
+/* below 430px screen width */
  @media screen and (max-width: 440px) {
     #home{
         width: 130%;
@@ -919,4 +920,3 @@ section {
       height: 80px;
     }
   }
-
