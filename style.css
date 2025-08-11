@@ -831,3 +831,92 @@ section {
     }
   }
   
+  
+/* below 440px screen width */
+ @media screen and (max-width: 440px) {
+    #home{
+        width: 130%;
+    }
+    #about{
+        width: 130%;
+    }
+    #skills{
+        width: 130%;
+    }
+    #work{
+        width: 130%;
+    }   
+    #description{
+        width: 130%;
+    }                
+   #contact{
+        width: 130%;
+    }             
+    .navbar__toggle-btn {
+      display: block;
+    }
+    .about__majors {
+        margin: 1px;
+    }        
+    .about__education {
+        display: inline-grid;
+ 
+        justify-content: space-evenly;
+  
+    }    
+    .job, .education {
+        display: flex;
+
+        padding-bottom: 5px;
+    }        
+    .skill__description {
+        display: inline-block;
+    }    
+    .skillset__left { margin: 0 0 50px 0px; }  
+    #about {
+        margin: 10px;
+    }    
+    #navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .etc {
+        padding: 20px;
+    }    
+    .work__projects {
+        margin: 0 0px;
+    }
+    .navbar__menu {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      display: none;
+    }
+    .navbar__menu.open {
+      display: block;
+    }
+    .about__majors {
+      flex-direction: column;
+    }
+    .description {
+        margin: 0;
+    }
+    .major {
+      margin-bottom: 38px;
+    }
+  
+    .skillset {
+      flex-direction: column;
+      margin: 0px;
+    }
+  
+    .project {
+      flex-grow: 1;
+    }
+  
+    .career__avatar {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
