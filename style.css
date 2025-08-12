@@ -919,4 +919,262 @@ section {
       width: 80px;
       height: 80px;
     }
+    .career__descript {
+     display: grid;
+     margin: 32px 0;
+    }
+    .arrow-up {
+    right: 113px;
+    width: 50px;
+    height: 50px;
+    }    
+  }
+
+
+  /* below 430px screen width */
+ @media screen and (max-width: 430px) {
+    #home{
+        width: 105%;
+    }
+    #about{
+        width: 95%;
+    }
+    #skills{
+        width: 100%;
+    }
+    #work{
+        width: 100%;
+    }   
+    #description{
+        width: 100%;
+    }                
+   #contact{
+        width: 100%;
+    }             
+
+    #hobbie1, #hobbie2, #hobbie3 {
+        width: 210px;
+    }
+    .arrow-up {
+    right: 113px;
+    width: 50px;
+    height: 50px;
+    } 
+    .category__btn {
+
+        padding: 4px 18px;
+        font-size: 16px;
+    }
+    #h1list{
+        font-size: x-large;
+    }
+    #h2list{
+            font-size: medium;
+    }
+    .career__descript {
+        display: grid;
+        margin: 32px 0;
+    }
+    .navbar__toggle-btn {
+      display: block;
+      top: 56px;
+      right: 35%;
+      font-size: 35px;  
+    }
+    .about__majors {
+     display: grid;
+     justify-content: center;
+    }        
+
+
+    .major__icon {
+        width: 315px;
+    }
+
+    
+    .career__avatar {
+        width: 39px;
+        height: 39px;
+    }
+
+    .about__education {
+        display: inline-grid;
+ 
+        justify-content: space-evenly;
+  
+    }    
+    .job, .education {
+        display: flex;
+
+        padding-bottom: 5px;
+    }        
+    .skill__description {
+        display: inline-block;
+    }    
+    .skillset__left { margin: 0 0 50px 0px; }  
+    #about {
+        margin: 10px;
+    }    
+    #navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .etc {
+        padding: 20px;
+    }    
+    .work__projects {
+        margin: 0 0px;
+    }
+    .navbar__menu {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      display: none;
+    }
+    .navbar__menu.open {
+      display: block;
+    }
+    .about__majors {
+      flex-direction: column;
+    }
+    .description {
+        margin: 0;
+    }
+    .major {
+      margin-bottom: 38px;
+    }
+  
+    .skillset {
+      flex-direction: column;
+      margin: 0px;
+    }
+  
+    .project {
+      flex-grow: 1;
+    }
+ 
+  }
+
+  /* below 360px screen width */
+ @media screen and (max-width: 360px) {
+    #home{
+        width: 105%;
+    }
+    #about{
+        width: 95%;
+    }
+    #skills{
+        width: 100%;
+    }
+    #work{
+        width: 100%;
+    }   
+    #description{
+        width: 100%;
+    }                
+   #contact{
+        width: 100%;
+    }             
+
+    #hobbie1, #hobbie2, #hobbie3 {
+        width: 210px;
+    }
+    .arrow-up {
+    right: 113px;
+    width: 50px;
+    height: 50px;
+    } 
+    .category__btn {
+
+        padding: 4px 18px;
+        font-size: 16px;
+    }
+    #h1list{
+        font-size: x-large;
+    }
+    #h2list{
+            font-size: medium;
+    }
+    .career__descript {
+        display: grid;
+        margin: 32px 0;
+    }
+    .navbar__toggle-btn {
+      display: block;
+      top: 56px;
+      right: 35%;
+      font-size: 35px;  
+    }
+    .about__majors {
+     display: grid;
+     justify-content: center;
+    }        
+
+
+    .major__icon {
+        width: 315px;
+    }
+
+    
+    .career__avatar {
+        width: 39px;
+        height: 39px;
+    }
+
+    .about__education {
+        display: inline-grid;
+ 
+        justify-content: space-evenly;
+  
+    }    
+    .job, .education {
+        display: flex;
+
+        padding-bottom: 5px;
+    }        
+    .skill__description {
+        display: inline-block;
+    }    
+    .skillset__left { margin: 0 0 50px 0px; }  
+    #about {
+        margin: 10px;
+    }    
+    #navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .etc {
+        padding: 20px;
+    }    
+    .work__projects {
+        margin: 0 0px;
+    }
+    .navbar__menu {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      display: none;
+    }
+    .navbar__menu.open {
+      display: block;
+    }
+    .about__majors {
+      flex-direction: column;
+    }
+    .description {
+        margin: 0;
+    }
+    .major {
+      margin-bottom: 38px;
+    }
+  
+    .skillset {
+      flex-direction: column;
+      margin: 0px;
+    }
+  
+    .project {
+      flex-grow: 1;
+    }
+ 
   }
