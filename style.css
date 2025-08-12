@@ -934,26 +934,26 @@ section {
   /* below 430px screen width */
  @media screen and (max-width: 430px) {
     #home{
-        width: 105%;
+        width: 115%;
     }
     #about{
-        width: 95%;
+        width: 115%;
     }
     #skills{
-        width: 100%;
+        width: 115%;
     }
     #work{
-        width: 100%;
+        width: 115%;
     }   
     #description{
-        width: 100%;
+        width: 115%;
     }                
    #contact{
-        width: 100%;
+        width: 115%;
     }             
 
     #hobbie1, #hobbie2, #hobbie3 {
-        width: 210px;
+        width: 220px;
     }
     .arrow-up {
     right: 113px;
