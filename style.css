@@ -936,6 +936,9 @@ section {
     #home{
         width: 100%;
     }
+    #navbar{
+        width: 85%;
+    }         
     #about{
         width: 100%;
     }
@@ -978,7 +981,7 @@ section {
     .navbar__toggle-btn {
       display: block;
       top: 56px;
-      right: 15%;
+      right: 12%;
       font-size: 35px;  
     }
     .navbar__logo >a>img {
@@ -1064,6 +1067,9 @@ section {
     #home{
         width: 105%;
     }
+    #navbar{
+        width: 85%;
+    }         
     #about{
         width: 95%;
     }
@@ -1109,7 +1115,7 @@ section {
     .navbar__toggle-btn {
       display: block;
       top: 56px;
-      right: 15%;
+      right: 12%;
       font-size: 35px;  
     }
     .about__majors {
@@ -1185,6 +1191,7 @@ section {
     }
  
   }
+
 
 
 
