@@ -934,22 +934,22 @@ section {
   /* below 430px screen width */
  @media screen and (max-width: 430px) {
     #home{
-        width: 115%;
+        width: 100%;
     }
     #about{
-        width: 115%;
+        width: 100%;
     }
     #skills{
-        width: 115%;
+        width: 100%;
     }
     #work{
-        width: 115%;
+        width: 100%;
     }   
     #description{
-        width: 115%;
+        width: 100%;
     }                
    #contact{
-        width: 115%;
+        width: 100%;
     }             
 
     #hobbie1, #hobbie2, #hobbie3 {
@@ -1178,5 +1178,6 @@ section {
     }
  
   }
+
 
 
