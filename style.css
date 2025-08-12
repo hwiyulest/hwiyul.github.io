@@ -978,7 +978,7 @@ section {
     .navbar__toggle-btn {
       display: block;
       top: 56px;
-      right: 35%;
+      right: 25%;
       font-size: 35px;  
     }
     .about__majors {
@@ -1178,4 +1178,5 @@ section {
     }
  
   }
+
 
